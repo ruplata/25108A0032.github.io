@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jayesh Shamkuwar | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#020617;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+color:#38bdf8;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+padding:60px;
+text-align:center;
+}
+
+.hero img{
+width:180px;
+border-radius:50%;
+margin-bottom:20px;
+border:4px solid #38bdf8;
+}
+
+.btn{
+display:inline-block;
+background:#38bdf8;
+color:black;
+padding:10px 20px;
+margin-top:15px;
+border-radius:6px;
+text-decoration:none;
+}
+
+section{
+padding:50px;
+max-width:1000px;
+margin:auto;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:10px 15px;
+border-radius:6px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+.video video{
+width:100%;
+max-width:600px;
+margin-top:20px;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Jayesh</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#video">Video</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+
+<img src="D:\25108A0032\7093.jpg">
+
+<h2>Jayesh Shamkuwar</h2>
+
+<p>First Year EXCS Student | Software Engineering Enthusiast</p>
+
+<p>Semester 2 | Division A</p>
+
+<p>Vidyalankar Institute of Technology</p>
+
+<a class="btn" href="D:\25108A0032\jayesh_shamkuwar_resume.pdf">Download Resume</a>
+
+</div>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Hello! I am Jayesh Shamkuwar, a first-year Electronics and Computer Science student passionate about software engineering, robotics, and web development. I enjoy building projects that combine hardware and software to solve real-world problems.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Java</div>
+<div class="skill">C Programming</div>
+<div class="skill">Arduino</div>
+<div class="skill">Robotics</div>
+<div class="skill">Web Development</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<img src="D:\25108A0032\Screenshot 2026-03-14 235518.png">
+
+<h3>Medical Shop Website</h3>
+
+<p>
+The Medical Shop Website is a simple web-based platform designed to help customers view available medicines, check prices, and contact the pharmacy online. The website provides a digital interface for a local medical shop to showcase their products and services.
+
+
+
+Objective:
+
+To create an easy-to-use website that allows users to explore medicines and get information about pharmacy services.
+
+
+
+Technologies Used
+
+HTML
+
+CSS
+
+Basic Web Design
+
+
+
+Features
+
+Homepage with shop introduction
+
+Medicine product listing
+
+Search or browse medicines
+
+Contact information of medical shop
+
+Clean and user-friendly interface
+
+
+
+Benefits
+
+Customers can check medicines online
+
+Saves time visiting the shop
+
+Helps the medical store reach more customers
+
+
+
+Future Improvements
+
+Online medicine ordering
+
+Payment gateway integration
+
+Doctor prescription upload
+
+Login system for customers</p>
+
+</div>
+
+<div class="card">
+
+<img src="D:\25108A0032\IMG_5139.PNG">
+
+<h3>Line Detector Robot</h3>
+
+<p>
+he Line Detector Robot is an autonomous robot designed to detect and follow a black line on a white surface. The robot uses sensors to continuously monitor the path and automatically adjusts its direction to stay on the line.
+
+
+
+This project demonstrates the integration of electronics, sensors, and programming to build an intelligent robotic system.
+
+Objective
+
+
+The objective of this project is to design a robot that can automatically follow a predefined path using sensors and a microcontroller.
+
+Components Used
+Microcontroller / Arduino
+
+IR Sensors
+
+Motor Driver Module
+
+DC Motors
+
+Robot Chassis
+
+Battery</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="video" class="video">
+
+<h2>Project Demo</h2>
+
+<video controls>
+<source src="D:\25108A0032\VIDEO-2025-12-02-12-29-45.mp4" type="video/mp4">
+</video>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: jayeshshamkuwar786@gmail.com</p>
+<p>mobile number: 7249224779</p>
+<p>Location: Mumbai, Maharashtra</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Jayesh Shamkuwar Portfolio</p>
+
+</footer>
+
+</body>
+</html>
